@@ -1,0 +1,8 @@
+.hide {
+  display: none;
+}
+
+td, th {
+  border: solid 1px black;
+  padding: 5px;
+}

@@ -1,1 +1,27 @@
-<h1>Home Page</h1>
+<section id="container">
+  <h1>Contact List</h1>
+
+  <input type="submit" id="show_all" value="See All Contacts">
+  <input type="submit" id="show_form" value="Add Contact">
+  <input type="text-field" id="search" value="Search Contacts">
+  <form id="new-contact" class="hide">
+    <p>Name: <input type="text-field" id="name"></p>
+    <p>Email: <input type="text-field" id="email"></p>
+    <p>Number: <input type="text-field" id="number"></p>
+    <button type="button" id="add_contact" value="Submit">Submit New Contact</button>
+  </form>
+
+  <section id="results" class="hide">
+    <table id="contacts">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Number</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </section>
+</section>
